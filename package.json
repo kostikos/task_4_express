@@ -1,0 +1,40 @@
+{
+  "name": "task_4_express",
+  "version": "1.0.0",
+  "description": "Homework for the fourth lecture.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "editorconfig": "editorconfig-checker",
+    "dev": "nodemon index.js",
+    "test": "nmp run editorconfig"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kostikos/task_4_express.git"
+  },
+  "keywords": [
+    "express",
+    "study"
+  ],
+  "author": "K.Dolynka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kostikos/task_4_express/issues"
+  },
+  "homepage": "https://github.com/kostikos/task_4_express#readme",
+  "dependencies": {
+    "editorconfig-checker": "^4.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "nodemon": "^2.0.15",
+    "editorconfig-checker": "^4.0.2"
+  }
+}
